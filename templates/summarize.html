@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" textfile="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+
+        {% if title %}
+            <title>Text Summarization - {{ title }}</title>
+        {% else %}
+            <title>Text Summarization</title>
+        {% endif %}
+
+        <h1>Welcome to <b><i>Text Summary</i></b></h1>
+        <p>
+        Here you can get summary of the text by just simply upload your text file
+        </p>
+    </head>
+    <body>
+        <p>Your summarized text is</p>
+    </body>
+</html>
