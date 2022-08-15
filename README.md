@@ -8,4 +8,6 @@ Transformer use special type of attention mechanism called self attention mechan
 
 Here I used already available transformer pipeling for textsummarization
 
+"TextSummarization.py" file used to create model used in "app.py" file will summarize our written text.
 
+"app.py" file is a main file through which we can run our "FLASK_APP".
