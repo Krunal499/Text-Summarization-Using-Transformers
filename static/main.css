@@ -1,0 +1,49 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    background: #e7eaeb;
+    margin-top: 2rem;
+    font-family: "Times New Roman";
+}
+p{
+    margin-top: 1rem;
+    margin-left: 1rem;  
+    font-family: "Times New Roman";
+}
+
+h1{
+    align-content: center;
+    margin-left: 1rem;
+    font-family: "Times New Roman";
+}
+
+.form-group {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-left: 1rem;
+    font-family: "Times New Roman";
+
+}
+
+
+#button{
+    color: black;
+    border: 2px solid #5872CB;;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 8px
+}
+
+#button:hover {
+    background-color: #000000;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
